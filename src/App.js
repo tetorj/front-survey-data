@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import logo from './logo-teto.png';
 import './App.css';
 
 class App extends Component {
@@ -7,17 +7,18 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          <img src={logo} alt="logo TETO Brasil" />
           <p>
-            Edit <code>src/App.js</code> and save to reload.
+            {/*Edit <code>src/App.js</code> and save to reload.}*/}
+            Em construção
           </p>
           <a
             className="App-link"
-            href="https://reactjs.org"
+            href="https://www.techo.org/brasil/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React
+            TETO Brasil
           </a>
         </header>
       </div>
